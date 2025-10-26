@@ -1,0 +1,10 @@
+salesforce.Role underasd {
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  mayForecastManagerShare = false
+  name = "underasd"
+  opportunityAccessLevel = "Edit"
+  parentRole = salesforce.Role.instance.asd
+  fullName = "underasd"
+  _alias = "underasd"
+}
