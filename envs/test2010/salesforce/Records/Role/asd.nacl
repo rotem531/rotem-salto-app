@@ -1,7 +1,7 @@
 salesforce.Role asd {
   caseAccessLevel = "Edit"
   contactAccessLevel = "Edit"
-  description = "asd5"
+  description = "asds"
   mayForecastManagerShare = false
   name = "asd"
   opportunityAccessLevel = "Edit"
