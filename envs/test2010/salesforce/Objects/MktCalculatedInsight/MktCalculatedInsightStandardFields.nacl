@@ -97,7 +97,7 @@ type salesforce.MktCalculatedInsight {
   }
   salesforce.Lookup HistoryCiId {
     apiName = "MktCalculatedInsight.HistoryCiId"
-    label = "Calculated Insight ID"
+    label = "History Calculated Insight ID"
     relationshipName = "HistoryCi"
   }
 }

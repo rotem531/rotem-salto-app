@@ -181,4 +181,11 @@ type salesforce.DataLakeObjectInstance {
     unique = false
     caseSensitive = false
   }
+  salesforce.Text MktDataLakeObjectLabel {
+    apiName = "DataLakeObjectInstance.MktDataLakeObjectLabel"
+    label = "Mkt Data Lake Object Label"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
 }

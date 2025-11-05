@@ -172,7 +172,8 @@ type salesforce.DataStream {
   }
   salesforce.Picklist FullRefreshIntervalDays {
     apiName = "DataStream.FullRefreshIntervalDays"
-    label = "Days Till Next Full Refresh"
+    inlineHelpText = "The full refresh interval is used to determine when a periodic full refresh is triggered."
+    label = "Full Refresh Interval"
     restricted = true
   }
 }

@@ -136,7 +136,7 @@ type salesforce.DataLakeObjectInstance {
   externalSharingModel = "ReadWrite"
   searchLayouts = {
     customTabListAdditionalFields = [
-      "ObjectCategory",
+      "Category",
       "Billable",
       "Storage",
       "DataLakeObjectStatus",
@@ -145,7 +145,7 @@ type salesforce.DataLakeObjectInstance {
       "TotalNumberOfFields",
     ]
     lookupDialogsAdditionalFields = [
-      "ObjectCategory",
+      "Category",
       "Billable",
       "Storage",
       "DataLakeObjectStatus",
@@ -154,7 +154,7 @@ type salesforce.DataLakeObjectInstance {
       "TotalNumberOfFields",
     ]
     lookupPhoneDialogsAdditionalFields = [
-      "ObjectCategory",
+      "Category",
       "Billable",
       "Storage",
       "DataLakeObjectStatus",
@@ -163,7 +163,7 @@ type salesforce.DataLakeObjectInstance {
       "TotalNumberOfFields",
     ]
     searchResultsAdditionalFields = [
-      "ObjectCategory",
+      "Category",
       "Billable",
       "Storage",
       "DataLakeObjectStatus",
