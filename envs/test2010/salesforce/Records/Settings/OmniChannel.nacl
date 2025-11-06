@@ -3,6 +3,7 @@ salesforce.OmniChannelSettings {
   enableOmniChannel = true
   enableOmniSecondaryRoutingPriority = false
   enableOmniSkillsRouting = false
+  enableOmniStatusCapModel = false
   fullName = "OmniChannel"
   _alias = "OmniChannel"
 }

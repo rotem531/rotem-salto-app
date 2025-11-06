@@ -1,8 +1,4 @@
 type salesforce.WebStoreInventorySource {
-  salesforce.Unknown DoesAllowGuestInventoryLevel {
-    apiName = "WebStoreInventorySource.DoesAllowGuestInventoryLevel"
-    inlineHelpText = "Allows guest user access to inventory level."
-  }
   salesforce.Number InventoryCacheTtl {
     apiName = "WebStoreInventorySource.InventoryCacheTtl"
     inlineHelpText = "The Inventory Cache Time To Live must be between 300 and 14,400. The default for a new store is 1,440."
@@ -107,6 +103,12 @@ type salesforce.WebStoreInventorySource {
   salesforce.Checkbox IsBopisEnabled {
     apiName = "WebStoreInventorySource.IsBopisEnabled"
     label = "BOPIS Enabled"
+    defaultValue = false
+  }
+  salesforce.Checkbox DoesAllowGuestInventoryLevel {
+    apiName = "WebStoreInventorySource.DoesAllowGuestInventoryLevel"
+    inlineHelpText = "Allows guest user access to inventory level."
+    label = "Allows guest user access to inventory level."
     defaultValue = false
   }
 }

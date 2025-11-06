@@ -189,4 +189,8 @@ type salesforce.PendingServiceRouting {
     label = "Is Conference"
     defaultValue = false
   }
+  salesforce.DateTime TargetAcceptDateTime {
+    apiName = "PendingServiceRouting.TargetAcceptDateTime"
+    label = "Target Accept Date Time"
+  }
 }

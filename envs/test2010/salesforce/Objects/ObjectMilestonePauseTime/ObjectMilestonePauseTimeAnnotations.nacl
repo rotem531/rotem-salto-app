@@ -57,9 +57,9 @@ type salesforce.ObjectMilestonePauseTime {
   }
   apiName = "ObjectMilestonePauseTime"
   metadataType = "CustomObject"
-  label = "ObjectMilestonePauseTime"
+  label = "Milestone Pause Time Item"
   description = ""
   enableFeeds = false
   externalSharingModel = "ControlledByParent"
-  _alias = "ObjectMilestonePauseTime"
+  _alias = "Milestone Pause Time Item"
 }

@@ -57,9 +57,9 @@ type salesforce.DataKnowledgeSrcFileRef {
   }
   apiName = "DataKnowledgeSrcFileRef"
   metadataType = "CustomObject"
-  label = "DataKnowledgeSrcFileRef"
+  label = "Knowledge Source File Reference"
   description = ""
   enableFeeds = false
   externalSharingModel = "Private"
-  _alias = "DataKnowledgeSrcFileRef"
+  _alias = "Knowledge Source File Reference"
 }

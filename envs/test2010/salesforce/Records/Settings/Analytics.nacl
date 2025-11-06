@@ -26,6 +26,7 @@ salesforce.AnalyticsSettings {
   enableFirebirdEditor = false
   enableFloatingReportHeaders = true
   enableIncludeDisclaimerMessage = false
+  enableIncrementalUpsert = false
   enableInsights = true
   enableLightningReportBuilder = false
   enableLotusNotesImages = false
@@ -37,10 +38,13 @@ salesforce.AnalyticsSettings {
   enableOrgCanViewThumbnailForOA = true
   enableOrgHasMobileOfflineEnabled = true
   enableOrgHasWatchlistEnabled = true
+  enableOrgWideEmailNotification = false
+  enablePupparazziForNotifications = false
   enableQueryLiveConnectors = true
   enableRemoveFooterForRepDisplay = false
   enableRemoveFooterFromRepExp = false
   enableReportCdnPref = true
+  enableReportEscapeCharsPref = false
   enableReportHideXlsExportPref = false
   enableReportInlineEditPref = true
   enableReportNotificationsEnable = true
@@ -57,6 +61,7 @@ salesforce.AnalyticsSettings {
   enableSummaryFilterOrgPref = false
   enableTableauHyperOutputConnector = false
   enableUseOldChartsLookAndFeel = false
+  enableUseReportTableSettingPref = false
   enableWaveAssetsNewDateVersion = false
   enableWaveIndexMVDim = true
   enableWaveIndexMVDimV2 = false

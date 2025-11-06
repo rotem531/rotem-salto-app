@@ -19,6 +19,7 @@ salesforce.UserManagementSettings {
   psaExpirationUIEnabled = true
   restrictedProfileCloning = false
   userAccessPoliciesEnabled = false
+  userFieldHistoryTracking = false
   fullName = "UserManagement"
   _alias = "UserManagement"
 }

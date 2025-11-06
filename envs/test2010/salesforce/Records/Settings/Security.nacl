@@ -65,6 +65,7 @@ salesforce.SecuritySettings {
     lockerServiceCSP = true
     lockerServiceNext = true
     lockerServiceNextControl = false
+    lockerTrustedMode = false
     redirectBlockModeEnabled = false
     redirectionWarning = true
     referrerPolicy = true

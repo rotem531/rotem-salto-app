@@ -1,7 +1,4 @@
 type salesforce.FlowOrchestrationInstance {
-  salesforce.Unknown AuxiliaryTriggeringRecord {
-    apiName = "FlowOrchestrationInstance.AuxiliaryTriggeringRecord"
-  }
   salesforce.Unknown Duration {
     apiName = "FlowOrchestrationInstance.Duration"
     label = "Duration"
@@ -118,5 +115,17 @@ type salesforce.FlowOrchestrationInstance {
     apiName = "FlowOrchestrationInstance.FlowDefinitionVersionName"
     label = "Flow Definition Version Name"
     restricted = true
+  }
+  salesforce.Text AuxiliaryTriggeringRecord {
+    apiName = "FlowOrchestrationInstance.AuxiliaryTriggeringRecord"
+    label = "Auxiliary Triggering Record"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsDebugRun {
+    apiName = "FlowOrchestrationInstance.IsDebugRun"
+    label = "Debug Run"
+    defaultValue = false
   }
 }

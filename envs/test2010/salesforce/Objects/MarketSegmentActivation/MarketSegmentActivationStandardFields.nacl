@@ -4,9 +4,6 @@ type salesforce.MarketSegmentActivation {
     label = "Activation Type"
     restricted = true
   }
-  salesforce.Unknown ActivationProcessingType {
-    apiName = "MarketSegmentActivation.ActivationProcessingType"
-  }
   salesforce.Picklist ActivationRefreshType {
     apiName = "MarketSegmentActivation.ActivationRefreshType"
     inlineHelpText = "Choose how often to refresh your data. Incremental refresh updates new or changed data since the last publish. Full refresh updates all your data and can be selected once every 24 hours."
@@ -219,6 +216,11 @@ type salesforce.MarketSegmentActivation {
     unique = false
     caseSensitive = false
   }
+  salesforce.LongTextArea PartnerObjectIds {
+    apiName = "MarketSegmentActivation.PartnerObjectIds"
+    label = "Partner Object Ids"
+    length = 131072
+  }
   salesforce.Text CuratedEntityName {
     apiName = "MarketSegmentActivation.CuratedEntityName"
     label = "Curated Data Model Entity Name"
@@ -246,5 +248,10 @@ type salesforce.MarketSegmentActivation {
     length = 255
     unique = false
     caseSensitive = false
+  }
+  salesforce.Picklist ActivationProcessingType {
+    apiName = "MarketSegmentActivation.ActivationProcessingType"
+    label = "Processing Type"
+    restricted = true
   }
 }

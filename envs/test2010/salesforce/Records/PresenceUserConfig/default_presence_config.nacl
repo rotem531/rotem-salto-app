@@ -5,6 +5,7 @@ salesforce.PresenceUserConfig default_presence_config {
   enableDeclineReason = false
   enableDisconnectSound = true
   enableRequestSound = true
+  hasAfterConvoWorkTimer = false
   label = "Default Presence Configuration"
   fullName = "default_presence_config"
   _alias = "Default Presence Configuration"

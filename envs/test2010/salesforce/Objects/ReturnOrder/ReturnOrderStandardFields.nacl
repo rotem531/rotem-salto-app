@@ -55,9 +55,6 @@ type salesforce.ReturnOrder {
   salesforce.Unknown ProcessType {
     apiName = "ReturnOrder.ProcessType"
   }
-  salesforce.Unknown RefundInstructionsHint {
-    apiName = "ReturnOrder.RefundInstructionsHint"
-  }
   salesforce.Lookup ReturnedById {
     apiName = "ReturnOrder.ReturnedById"
     label = "Returned By ID"
@@ -215,5 +212,10 @@ type salesforce.ReturnOrder {
     apiName = "ReturnOrder.SystemModstamp"
     label = "System Modstamp"
     _hidden_value = true
+  }
+  salesforce.LongTextArea RefundInstructionsHint {
+    apiName = "ReturnOrder.RefundInstructionsHint"
+    label = "Refund Instructions Hint"
+    length = 131072
   }
 }

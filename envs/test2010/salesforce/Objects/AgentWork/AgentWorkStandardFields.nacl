@@ -1,7 +1,4 @@
 type salesforce.AgentWork {
-  salesforce.Unknown AbandonedDateTime {
-    apiName = "AgentWork.AbandonedDateTime"
-  }
   salesforce.DateTime AcceptDateTime {
     apiName = "AgentWork.AcceptDateTime"
     label = "Accept Date"
@@ -226,9 +223,6 @@ type salesforce.AgentWork {
   salesforce.Unknown StatusSequence {
     apiName = "AgentWork.StatusSequence"
   }
-  salesforce.Unknown TargetAcceptDateTime {
-    apiName = "AgentWork.TargetAcceptDateTime"
-  }
   salesforce.Lookup TransferRequesterId {
     apiName = "AgentWork.TransferRequesterId"
     label = "User ID"
@@ -298,5 +292,13 @@ type salesforce.AgentWork {
     apiName = "AgentWork.OriginalGroupId"
     label = "Group ID"
     relationshipName = "OriginalGroup"
+  }
+  salesforce.DateTime AbandonedDateTime {
+    apiName = "AgentWork.AbandonedDateTime"
+    label = "Abandoned Date Time"
+  }
+  salesforce.DateTime TargetAcceptDateTime {
+    apiName = "AgentWork.TargetAcceptDateTime"
+    label = "Target Accept Date Time"
   }
 }

@@ -57,9 +57,9 @@ type salesforce.DataKnowledgeSpace {
   }
   apiName = "DataKnowledgeSpace"
   metadataType = "CustomObject"
-  label = "DataKnowledgeSpace"
+  label = "Knowledge Space"
   description = ""
   enableFeeds = false
   externalSharingModel = "Private"
-  _alias = "DataKnowledgeSpace"
+  _alias = "Knowledge Space"
 }

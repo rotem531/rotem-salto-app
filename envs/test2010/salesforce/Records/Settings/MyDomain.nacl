@@ -6,6 +6,7 @@ salesforce.MyDomainSettings {
   doesWarnOnForceComRedirect = false
   doesWarnOnRedirect = false
   domainPartition = "develop"
+  edgeRoutingMethod = "global"
   enableCrossDomainPreviewCookies = true
   enableEdgeDuringRollout = true
   enableExtendedRedirections = false
@@ -16,6 +17,7 @@ salesforce.MyDomainSettings {
   enableShareBrowserSessionIOSForAuth = false
   instancedUrlRedirectHandling = "NoRedirect"
   isFirstPartyCookieUseRequired = false
+  isIcorInstApiTrafficBlocked = false
   isInstancedApiTrafficBlocked = true
   logRedirections = false
   myDomainName = "orgfarm-67bf0f9ffc-dev-ed"
